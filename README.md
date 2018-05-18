@@ -1,17 +1,17 @@
 # chefsick.lk
 Per Week Meal Planning and Ordering Website
 
-## Clone this using git bash. -> git clone https://github.com/chaturangalagama/chefsick.lk.git
+### Clone this using git bash. -> git clone https://github.com/chaturangalagama/chefsick.lk.git
 
 
-## Open using IntellijIdea -> New -> Project from Existing Sourses -> Choose root pom.xml -> Ok
+### Open using IntellijIdea -> New -> Project from Existing Sourses -> Choose root pom.xml -> Ok
 
-## Build Maven ->
+### Build Maven ->
 
       -> Go to Maven projects -> chefsick(root) -> Lifecycle
       -> mvn clean install     
      
-## Microservices ->
+### Microservices ->
 
       -> Service-Registry-Server (Eureka Service Registry)
       
@@ -25,7 +25,7 @@ Per Week Meal Planning and Ordering Website
       
       -> Chefsick-Service-Menu (Menu Service)
 
-## Running Order 
+### Running Order 
 
       -> Firt Run the Service-Registry-Server 
 
@@ -35,9 +35,9 @@ Per Week Meal Planning and Ordering Website
       
       -> Then Run the others 
       
-## Calling Cart Service Api
+### Calling Cart Service Api
 
-      ### Part I
+#### Part I
       -> First Get OAuth2+JWT Token 
             -> http://localhost:8080/oauth/token
             -> POST Request
@@ -64,7 +64,7 @@ Per Week Meal Planning and Ordering Website
   ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/OAUTH2%20get%20token%20Authorization%20type.png)
   
   
-      ### Part II
+  #### Part II
       -> Then Call Cart Service -> /call-menu-from-cart  
             -> http://localhost:8085/application-server-hawking/call-menu-from-cart
             -> GET Request
