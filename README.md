@@ -67,7 +67,7 @@ Calling Cart Service Api
                         -> Content-Type -> application/x-www-form-urlencoded
                         -> Accept -> application/json
                      
-  ![alt text(https://github.com/chaturangalagama/chefsick.lk/blob/master/images/Call%20cart%20from%20menu%20Authorization%20type.png)
+  ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/Call%20cart%20from%20menu%20Authorization%20type.png)
 
   ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/Call%20cart%20from%20menu%20headers.png)
       
