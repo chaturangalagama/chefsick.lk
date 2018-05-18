@@ -25,7 +25,7 @@ Microservices ->
       
       -> Chefsick-Service-Menu (Menu Service)
 
-Runing Order 
+Running Order 
 
       -> Firt Run the Service-Registry-Server 
 
