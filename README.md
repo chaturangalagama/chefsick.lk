@@ -49,8 +49,8 @@ Per Week Meal Planning and Ordering Website
                         -> password -> password
                         -> grant_type -> 123456
             -> Authorization -> Basic Auth -> 
-                        -> Username -> testjwtclientid2
-                        -> Password -> XY7kmzoNzl1002
+                        -> Username -> testjwtclientid
+                        -> Password -> XY7kmzoNzl100
                        
 
   ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/OAUTH2%20get%20token%20headers.png)
@@ -65,8 +65,8 @@ Per Week Meal Planning and Ordering Website
   
   
   #### Part II
-      -> Then Call Cart Service -> /call-menu-from-cart  
-            -> http://localhost:8085/application-server-hawking/call-menu-from-cart
+      -> Then Call Menu Service -> /call-menu-from-cart  
+            -> http://localhost:8085/application-server-fermi/call-cart-from-menu
             -> GET Request
             -> Headers -> 
                         -> Content-Type -> application/x-www-form-urlencoded
