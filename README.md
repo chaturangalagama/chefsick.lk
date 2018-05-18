@@ -10,7 +10,7 @@ Open using IntellijIdea -> New -> Project from Existing Sourses -> Choose root p
 Execute -> mvn clean install
 
 
-First Run the Service-Registry-Server 
+First -> Run the Service-Registry-Server 
 
       -> Then Run the Gateway-Server 
       
