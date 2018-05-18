@@ -35,7 +35,7 @@ Runing Order
       
       -> Then Run the others 
       
-Calling Menu Service Api
+Calling Cart Service Api
 
       -> First Get OAuth2+JWT Token 
             -> http://localhost:8080/oauth/token
@@ -52,8 +52,22 @@ Calling Menu Service Api
                         -> grant_type -> 123456
                        
   ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/OAUTH2%20get%20token%20Authorization%20type.png)
+
+  ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/OAUTH2%20get%20token%20headers.png)
   
-  ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/OAUTH2%20get%20token%20Authorization%20type.png)
+  ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/OAUTH2%20get%20token%20body.png)
   
-  ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/OAUTH2%20get%20token%20Authorization%20type.png)
+  
+      -> Then Call Cart Service -> /call-menu-from-cart  
+            -> http://localhost:8085/application-server-hawking/call-menu-from-cart
+            -> GET Request
+            -> Authorization -> OAuth 2.0h -> 
+                        -> Access Token -> eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsidG1ZAnoI6d4
+            -> Headers -> 
+                        -> Content-Type -> application/x-www-form-urlencoded
+                        -> Accept -> application/json
+                     
+  ![alt text(https://github.com/chaturangalagama/chefsick.lk/blob/master/images/Call%20cart%20from%20menu%20Authorization%20type.png)
+
+  ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/Call%20cart%20from%20menu%20headers.png)
       
