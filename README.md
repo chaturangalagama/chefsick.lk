@@ -52,4 +52,8 @@ Calling Menu Service Api
                         -> grant_type -> 123456
                        
   ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/OAUTH2%20get%20token%20Authorization%20type.png)
+  
+  ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/OAUTH2%20get%20token%20Authorization%20type.png)
+  
+  ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/OAUTH2%20get%20token%20Authorization%20type.png)
       
