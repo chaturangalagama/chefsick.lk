@@ -51,5 +51,5 @@ Calling Menu Service Api
                         -> password -> password
                         -> grant_type -> 123456
                        
-  ![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+  ![alt text](https://github.com/chaturangalagama/chefsick.lk/blob/master/images/OAUTH2%20get%20token%20Authorization%20type.png)
       
